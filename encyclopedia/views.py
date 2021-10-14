@@ -44,10 +44,10 @@ def search(request):
             else:    
                 if any(query in s for s in search_md):
                     matching = [s for s in search_md if query in s]
-                    if len(matching) == 1:
-                        title = matching[0]
-                        page = util.get_entry(title)
-                        return render(request, "encyclopedia/searchPage.html", {"query": query, "list_entries": search_md, "formSearch": searchPage(), "matching": matching})
+                    print("query fund")
+                    title = matching[0]
+                    page = util.get_entry(title)
+                    return render(request, "encyclopedia/searchPage.html", {"query": query, "list_entries": search_md, "formSearch": searchPage(), "matching": matching}) 
                 else:
                     return render(request, "encyclopedia/searchPage.html", {"query": query, "list_entries": search_md, "formSearch": searchPage(), 'messageNotFound': "messageNotFound"})
     else:
