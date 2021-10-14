@@ -1,0 +1,21 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+Search page | Encyclopedia
+{% endblock %}
+
+{% block body %}
+
+<h1 class="mb-4">Results for "{{ query }}"</h1>
+<ul>
+{% for result in matching %}
+    <li><a href=/wiki/{{result}}>{{ result }}</a></li>
+{% endfor %}
+</ul>
+{% if messageNotFound %}
+<h6 class="no-item mt-4">No item found for "{{query}}"</h6>
+{% endif %}
+
+
+
+{% endblock %}
