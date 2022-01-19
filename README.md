@@ -16,8 +16,10 @@ This web application is a part of an online course by Harvard University
 
 ### Set up your own environment
 
-Clone the repo ```git clone https://github.com/kroos783/wiki.git```
-
-In the directory : 
-- run ```pip install -r requirements.txt```
-- run ```python manage.py runserver```
+- 
+- Check that you have Python 3.9
+- Clone the code: git clone ```git clone https://github.com/kroos783/wiki.git```
+- Run command prompt in the folder and run ```pip install -r requirements.txt``` to install all dependencies
+- Once installed run command ```python manage.py runserver```
+- In your browser go to ```127.0.0.1:8000```
+- You are ready to go!
