@@ -16,7 +16,6 @@ This web application is a part of an online course by Harvard University
 
 ### Set up your own environment
 
-- 
 - Check that you have Python 3.9
 - Clone the code: git clone ```git clone https://github.com/kroos783/wiki.git```
 - Run command prompt in the folder and run ```pip install -r requirements.txt``` to install all dependencies
