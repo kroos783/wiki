@@ -1,4 +1,5 @@
 # CS50s Web Programming with Python and JavaScript
+## Wiki
 This web application is a part of an online course by Harvard University
 
 ---
