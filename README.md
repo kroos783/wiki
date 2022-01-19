@@ -22,3 +22,19 @@ This web application is a part of an online course by Harvard University
 - Once installed run command ```python manage.py runserver```
 - In your browser go to ```127.0.0.1:8000```
 - You are ready to go!
+
+&nbsp;
+
+---
+
+### Contribute
+
+Contributions are always welcome! Please create a PR to contribute.
+
+### :pencil: &nbsp; License
+
+This project is licensed under [MIT](https://opensource.org/licenses/MIT) license.
+
+### :man_astronaut: &nbsp; Show your support
+
+Give a ⭐️ if this project helped you!
